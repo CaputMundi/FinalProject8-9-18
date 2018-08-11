@@ -2,8 +2,39 @@ body{
   background-color: #900C3F;
   color: #FF5733;
   font-family: sans-serif;
+  text-align: center;
 }
 h1 {
   color: #FFC300
+
+}
+img {
+
+width: 90px;
+
+height: 90px;
+
+float: right;
+
+}
+button{
+  margin-bottom: 10px;
+}
+input{
+  margin: 5px;
+}
+#postFullName{
+  color: white;
+}
+
+#idCard {
+margin: 0 auto;
+border: 5px solid white;
+
+height: 14em;
+
+width: 25em;
+
+background-color: #FFC300
 
 }
