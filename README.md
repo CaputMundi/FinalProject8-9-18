@@ -1,1 +1,2 @@
 # FinalProject8-9-18
+For your final project in Coding From Scratch you will be building a form. You will use the data inputted in the form to create a basic ID card. You will be using many topics from this course, so be sure you feel confident in your new skills. Below are the requirements needed for this project. The requirements are broken down by what you will need in each file (JS, HTML or CSS).
