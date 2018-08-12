@@ -2,11 +2,15 @@ body{
   background-color: #900C3F;
   color: #FF5733;
   font-family: sans-serif;
+}
+div{
   text-align: center;
 }
 h1 {
   color: #FFC300
-
+}
+div{
+  text-align: center;
 }
 img {
 
@@ -14,7 +18,7 @@ width: 90px;
 
 height: 90px;
 
-float: right;
+float: left;
 
 }
 button{
@@ -24,7 +28,24 @@ input{
   margin: 5px;
 }
 #postFullName{
+  color: #900C3F;
+}
+
+#postAge{
+text-align: left;
+color: white;
+margin: 0;
+}
+#postPhoneNumber{
+  text-align: left;
   color: white;
+  margin: 0;
+}
+#postAddress{
+  text-align: left;
+  color: #FFFFFF;
+  margin: 0;
+
 }
 
 #idCard {
@@ -36,5 +57,4 @@ height: 14em;
 width: 25em;
 
 background-color: #FFC300
-
 }

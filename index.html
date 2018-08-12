@@ -4,43 +4,46 @@
 
 <meta charset="utf-8">
 <title>
-  Final Project 8-9-18
+  Final Project 8-12-18
 </title>
-<h1>"Let's Create an ID card!"</h1>
+
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <div>
+  <h1>"Let's Create an ID card!"</h1>
   <form action="" method="">
   <label for="firstName">First Name:</label><br>
-  <input type="text" id="firstname"/><br>
+  <input type="text" id="firstName" placeholder="i.e Adrian"/><br>
   <label for="lastName">Last Name:</label><br>
-  <input type="text" id="lastName"/><br>
+  <input type="text" id="lastName" placeholder="i.e Zill"/><br>
   <label for="Age">Age:</label><br>
-  <input type="text" id="Age"/><br>
+  <input type="text" id="Age" placeholder="0-99"/><br>
   <label for="phoneNumber">Phone Number:</label><br>
-  <input type="text" id="phoneNumber"/><br>
+  <input type="text" id="phoneNumber" placeholder="000-321-9876"/><br>
   <label for="Address">Address:</label><br>
-  <input type="text" id="Address"/><br>
+  <input type="text" id="Address" placeholder="i.e Dimple Road"/><br>
 </form>
-<button onclick="idCard" type="submit">Get ID Card!</button><br>
+<button onclick="idCard()">Get ID Card!</button><br>
+<div>
 
 <div id="idCard">
 
 <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+<br>
+<h2 id="postFullName"></h2><br>
+<br>
+<br>
 
-<p id="postFullName"></p>
+<p id="postAge">Age:</p>
 
-<p id="postAge"></p>
+<p id="postPhoneNumber">Phone Number:</p>
 
-<p id="postPhoneNumber"></p>
-
-<p id="postAddress"></p>
+<p id="postAddress">Address:</p>
 
 </div>
-
 <script src="script.js"></script>
 </body>
-
 </html>
